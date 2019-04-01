@@ -35,7 +35,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api 'com.google.code.gson:gson:2.8.4'
-    api "android.arch.persistence.room:runtime:$room_version"
+    api "androidx.room:room-runtime:$room_version"
 }
 repositories {
     mavenCentral()
